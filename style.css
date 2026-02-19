@@ -1,0 +1,200 @@
+:root {
+  --nav-height: 140px;
+}
+
+main {
+  scroll-margin-top: var(--nav-height);
+  flex: 1;
+}
+
+body {
+    margin: 0;
+  padding-top: var(--nav-height);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #1b1b1b;
+    color: #f0f0f0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+    
+    /* nav Optik */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #000000;
+      padding: 10px 0; 
+      box-sizing: border-box;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff0000;
+      text-transform: uppercase;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .nav-home {
+        padding: 18px 0 14px;
+        border-bottom: 1px solid #000000;
+        font-size: 1.3rem;
+    }
+
+    .nav-home a {
+        color: #f0f0f0;
+    }
+
+    .nav-countries {
+      display: block;
+      width: calc(100% - 40px);
+      max-width: 1200px; 
+      margin: 0 auto;
+      padding: 10px;
+      background: #212121;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    .nav-countries a {
+        font-size: 0.95rem;
+        opacity: 1;
+    }
+
+    .nav-countries a:hover {
+        opacity: 1;
+    }
+    nav a.active {
+        color: #59bad8;
+        text-decoration: underline;
+    }
+    
+    .content {
+      padding: 20px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .content h1 {
+      text-decoration: underline;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+    .content p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .content img {
+      max-width: 90%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background: #000000;
+      color: #ccc;
+      margin-top: auto;
+    } 
+
+    /* Spezifische Stile für Deutschland-Seite */
+    .gcontent {
+      padding: 20px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+      text-align: center;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      overflow: hidden;
+    }
+    .nav-tanksgermany {
+      display: block;
+      width: calc(100% - 40px);
+      max-width: 1200px; 
+      margin: 8px auto 0 auto;
+      padding: 20px;
+      background: linear-gradient(to right, black, red, yellow);
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 18px;
+    }
+    .nav-tanksgermany a:hover {
+      opacity: 1;
+      color: #ffffff;
+     }
+    .nav-tanksrussia {
+      display: block;
+      width: calc(100% - 40px);
+      max-width: 1200px; 
+      margin: 8px auto 0 auto;
+      padding: 20px;
+      background: linear-gradient(to right, white, blue, red);
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 18px;
+    }
+    .nav-tanksrussia a:hover {
+      opacity: 1;
+      color: #ffffff;
+     }
+    .nav-tankssweden {
+      display: block;
+      width: calc(100% - 40px);
+      max-width: 1200px; 
+      margin: 8px auto 0 auto;
+      padding: 20px;
+      background: linear-gradient(to right, blue, yellow);
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 18px;
+    }
+    .nav-tankssweden a:hover {
+      opacity: 1;
+      color: #ffffff;
+     }
+    .gcontent h1 {
+      text-decoration: underline;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+    .germany-image {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+      width: 100%;
+      border-radius: 20px;
+    }
+    .ltgtogermany {
+      display: block;
+      width: calc(25% - 80px);
+      max-width: 1200px; 
+      margin: 5px auto 0 auto;
+      padding: 7px;
+      background: linear-gradient(to right, black, red, yellow);
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 15px;
+    }
+     .ltgtogermany a:hover {
+      opacity: 1;
+     }
